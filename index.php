@@ -10,6 +10,5 @@ define ( 'EXCHANGE_RESULT',     'xxx' );
 define ( 'EXCHANGE_KEY_RESULT', 'xxx' );
 define ( 'QUEUE',               'xxx' );
 
-
 $worker = new Consumer( HOST, VHOST, EXCHANGE_RESULT, EXCHANGE_KEY_RESULT, QUEUE );
 $worker->run();
