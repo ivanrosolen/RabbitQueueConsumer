@@ -1,0 +1,17 @@
+{
+    "name": "XuplauConsumer",
+    "authors": [
+        {
+          "name": "Ivan Rosolen",
+          "email": "ivanrosolen@gmail.com"
+        }
+    ],
+    "autoload":{
+        "psr-4":{
+            "Xuplau\\":"application/library/"
+        }
+    },
+    "require": {
+      "videlalvaro/php-amqplib": "2.2.*"
+    }
+}
